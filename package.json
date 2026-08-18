@@ -1,0 +1,29 @@
+{
+  "name": "everyonic-automation",
+  "version": "1.0.0",
+  "description": "Everyonic Automation - Industrial Automation & Engineering Website",
+  "main": "js/main.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/input.css -o ./css/custom.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./css/custom.css --minify"
+  },
+  "keywords": [
+    "industrial-automation",
+    "plc-programming",
+    "control-panels",
+    "scada",
+    "engineering"
+  ],
+  "author": "Everyonic Automation",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "lucide-static": "^0.344.0",
+    "swiper": "^11.0.5"
+  }
+}

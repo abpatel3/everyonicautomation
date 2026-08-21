@@ -45,16 +45,17 @@
       <!-- Brand Logo -->
       <a href="index.html"
         class="flex items-center focus:outline-none focus:ring-2 focus:ring-brand-primary rounded transition-opacity duration-200 hover:opacity-90">
-        <img src="assets/logo/everyonic-logo.png" alt="Everyonic Automation Logo"
+        <img src="assets/logo/logo.png" alt="Everyonic Automation Logo"
           class="w-[160px] sm:w-[175px] h-auto object-contain">
       </a>
 
-      <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-8 lg:gap-10">
         <a href="index.html"
           class="nav-link text-[15px] font-semibold tracking-wide text-brand-secondary transition-colors duration-200 hover:text-brand-primary relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand-primary after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left">Home</a>
         <a href="about.html"
           class="nav-link text-[15px] font-semibold tracking-wide text-brand-secondary transition-colors duration-200 hover:text-brand-primary relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand-primary after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left">About</a>
+        <a href="products.html"
+          class="nav-link text-[15px] font-semibold tracking-wide text-brand-secondary transition-colors duration-200 hover:text-brand-primary relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand-primary after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left">Products</a>
         <a href="services.html"
           class="nav-link text-[15px] font-semibold tracking-wide text-brand-primary relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand-primary"
           aria-current="page">Services</a>
@@ -92,7 +93,7 @@
     <div>
       <div class="flex items-center justify-between pb-6 border-b border-brand-border">
         <a href="index.html" class="inline-block">
-          <img src="assets/logo/everyonic-logo.png" alt="Everyonic Automation Logo"
+          <img src="assets/logo/logo.png" alt="Everyonic Automation Logo"
             class="w-[140px] h-auto object-contain">
         </a>
         <button id="mobile-menu-close" type="button"
@@ -113,6 +114,11 @@
           <span>About</span>
           <i data-lucide="chevron-right" class="w-4 h-4 text-brand-muted"></i>
         </a>
+        <a href="products.html"
+          class="px-4 py-3 text-base font-semibold text-brand-secondary hover:text-brand-primary hover:bg-brand-offwhite rounded transition-colors flex items-center justify-between">
+          <span>Products</span>
+          <i data-lucide="chevron-right" class="w-4 h-4 text-brand-muted"></i>
+        </a>
         <a href="services.html"
           class="px-4 py-3 text-base font-semibold text-brand-primary bg-brand-offwhite rounded transition-colors flex items-center justify-between"
           aria-current="page">
@@ -130,7 +136,11 @@
     <div class="pt-6 border-t border-brand-border flex flex-col gap-4">
       <div class="flex items-center gap-3 text-brand-secondary text-xs font-mono">
         <i data-lucide="phone" class="w-4 h-4 text-brand-primary"></i>
-        <a href="tel:+917383967607" class="hover:text-brand-primary transition-colors">+91 73839 67607</a>
+        <div class="flex items-center gap-2">
+          <a href="tel:+917383967607" class="hover:text-brand-primary transition-colors">+91 73839 67607</a>
+          <span>/</span>
+          <a href="tel:+918511722326" class="hover:text-brand-primary transition-colors">+91 85117 22326</a>
+        </div>
       </div>
       <a href="contact.html"
         class="h-12 px-6 rounded-[4px] font-sans text-sm font-semibold tracking-wide text-white bg-brand-primary hover:bg-brand-primary-hover transition-all w-full text-center justify-center inline-flex items-center gap-2">
@@ -165,15 +175,15 @@
       </div>
     </section>
 
-    <!-- ==================== 2. DETAILED SERVICES SECTION ==================== -->
+    <!-- ==================== 2. DETAILED SERVICES SECTION (EXACT ALTERNATING FEATURE FORMAT) ==================== -->
     <section class="py-20 sm:py-28 bg-white text-brand-dark border-b border-brand-border">
-      <div class="container-custom space-y-16">
+      <div class="container-custom space-y-16 sm:space-y-20">
 
         <!-- Service 01: PLC Automation -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
           <div class="lg:col-span-6 space-y-4">
             <div class="flex items-center gap-2">
-              <span class="section-number">01</span>
+              <span class="section-number shrink-0 whitespace-nowrap">01</span>
               <span class="technical-label">LOGIC & LADDER PROGRAMMING</span>
             </div>
             <h2 class="heading-h2 text-brand-dark">PLC Automation & Logic Development</h2>
@@ -188,7 +198,7 @@
           </div>
           <div class="lg:col-span-6">
             <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
-              <img src="assets/images/services/rs=w_365,h_274,cg_true.webp" alt="PLC Automation Programming" class="w-full h-[300px] sm:h-[380px] object-cover">
+              <img src="assets/images/contribution/plc-programming-and-testing-1.webp" alt="PLC Programming and Logic Debugging" class="w-full h-[300px] sm:h-[380px] object-cover">
             </div>
           </div>
         </div>
@@ -199,12 +209,12 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
           <div class="lg:col-span-6 order-2 lg:order-1">
             <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
-              <img src="assets/images/services/rs=w_365,h_274,cg_true (1).webp" alt="Control Panel Assembly & Wiring" class="w-full h-[300px] sm:h-[380px] object-cover">
+              <img src="assets/images/contribution/control-wiring-power-wiring-and-designing.webp" alt="Control Wiring & Power Wiring Assembly" class="w-full h-[300px] sm:h-[380px] object-cover">
             </div>
           </div>
           <div class="lg:col-span-6 space-y-4 order-1 lg:order-2">
             <div class="flex items-center gap-2">
-              <span class="section-number">02</span>
+              <span class="section-number shrink-0 whitespace-nowrap">02</span>
               <span class="technical-label">CUSTOM DESIGN & ASSEMBLY</span>
             </div>
             <h2 class="heading-h2 text-brand-dark">Control Panel Manufacturing</h2>
@@ -225,7 +235,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
           <div class="lg:col-span-6 space-y-4">
             <div class="flex items-center gap-2">
-              <span class="section-number">03</span>
+              <span class="section-number shrink-0 whitespace-nowrap">03</span>
               <span class="technical-label">TURNKEY INTEGRATION</span>
             </div>
             <h2 class="heading-h2 text-brand-dark">Plant & Process Automation</h2>
@@ -240,8 +250,138 @@
           </div>
           <div class="lg:col-span-6">
             <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
-              <img src="assets/images/services/rs=w_365,h_274,cg_true (2).webp" alt="Plant Process Automation Equipment" class="w-full h-[300px] sm:h-[380px] object-cover">
+              <img src="assets/images/contribution/factory-automation-service-and-special-purposed-automation.webp" alt="Factory Automation & Plant Process Control" class="w-full h-[300px] sm:h-[380px] object-cover">
             </div>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-brand-border"></div>
+
+        <!-- Service 04: SCADA & HMI Visualization -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
+              <img src="assets/images/contribution/hmi-human-machine-interface-graphics.webp" alt="SCADA & HMI Graphics Display" class="w-full h-[300px] sm:h-[380px] object-cover">
+            </div>
+          </div>
+          <div class="lg:col-span-6 space-y-4 order-1 lg:order-2">
+            <div class="flex items-center gap-2">
+              <span class="section-number shrink-0 whitespace-nowrap">04</span>
+              <span class="technical-label">HMI & SUPERVISORY CONTROL</span>
+            </div>
+            <h2 class="heading-h2 text-brand-dark">SCADA & HMI Development</h2>
+            <p class="text-base text-brand-secondary leading-relaxed">
+              Interactive SCADA graphics, multi-touch HMI operator screens, real-time trend charts, and centralized supervisory dashboards for plant visibility.
+            </p>
+            <ul class="space-y-2 text-sm text-brand-secondary">
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Real-time process monitoring, historical data logging & alarm management</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Custom HMI screens for Siemens, Delta, Allen-Bradley & Pro-face screens</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Remote web dashboards and secure Industrial IoT telemetry integration</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-brand-border"></div>
+
+        <!-- Service 05: Process Instrumentation -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
+          <div class="lg:col-span-6 space-y-4">
+            <div class="flex items-center gap-2">
+              <span class="section-number shrink-0 whitespace-nowrap">05</span>
+              <span class="technical-label">FIELD SENSORS & TELEMETRY</span>
+            </div>
+            <h2 class="heading-h2 text-brand-dark">Process Instrument Selection & Installation</h2>
+            <p class="text-base text-brand-secondary leading-relaxed">
+              End-to-end selection, field mounting, cable tray laying, shielding termination, and loop calibration for industrial transmitters and sensors.
+            </p>
+            <ul class="space-y-2 text-sm text-brand-secondary">
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Pressure, temperature, level, and electromagnetic flow meters</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Cable tray installation, signal wire shielding, and marshalling termination</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> On-site loop testing, transmitter zero-span calibration, and signal verification</li>
+            </ul>
+          </div>
+          <div class="lg:col-span-6">
+            <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
+              <img src="assets/images/contribution/process-instruments-and-indicators.webp" alt="Process Instruments and Indicators" class="w-full h-[300px] sm:h-[380px] object-cover">
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-brand-border"></div>
+
+        <!-- Service 06: Water & Wastewater Treatment -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
+              <img src="assets/images/contribution/cable-laying-and-termination-in-turnkey-projectsplants-and-process-factory-1.webp" alt="Water Treatment & Pumping Station Cabling" class="w-full h-[300px] sm:h-[380px] object-cover">
+            </div>
+          </div>
+          <div class="lg:col-span-6 space-y-4 order-1 lg:order-2">
+            <div class="flex items-center gap-2">
+              <span class="section-number shrink-0 whitespace-nowrap">06</span>
+              <span class="technical-label">UTILITY & ENVIRONMENTAL CONTROL</span>
+            </div>
+            <h2 class="heading-h2 text-brand-dark">Water Treatment & Pumping Automation</h2>
+            <p class="text-base text-brand-secondary leading-relaxed">
+              Automated control systems for Water Treatment Plants (WTP), Sewage Treatment Plants (STP), ETP, pumping stations, and water booster house facilities.
+            </p>
+            <ul class="space-y-2 text-sm text-brand-secondary">
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Chemical dosing, filtration sequencing, and automatic backwash control</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Pumping station telemetry, sump level interlocks, and pump auto-alternation</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Municipal and industrial water SCADA integration with remote web monitoring</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-brand-border"></div>
+
+        <!-- Service 07: Machine & SPM Automation -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
+          <div class="lg:col-span-6 space-y-4">
+            <div class="flex items-center gap-2">
+              <span class="section-number shrink-0 whitespace-nowrap">07</span>
+              <span class="technical-label">SPECIAL PURPOSE MACHINERY</span>
+            </div>
+            <h2 class="heading-h2 text-brand-dark">Pharma, Ceramic & SPM Machine Control</h2>
+            <p class="text-base text-brand-secondary leading-relaxed">
+              High-speed machine automation tailored for pharmaceutical labelling/tablet/filling machines, ceramic tile assembly lines, and Special Purpose Machinery (SPM).
+            </p>
+            <ul class="space-y-2 text-sm text-brand-secondary">
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Multi-axis servo motion synchronization for precise high-speed indexing</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Custom machine logic for pharmaceutical packaging and liquid filling lines</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Integrated safety light curtains, vision sensor triggers, and fault diagnostics</li>
+            </ul>
+          </div>
+          <div class="lg:col-span-6">
+            <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
+              <img src="assets/images/contribution/machine-automation-programming-and-control-panel-ceramic-machine.webp" alt="Pharma and Ceramic Machine Automation" class="w-full h-[300px] sm:h-[380px] object-cover">
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full h-[1px] bg-brand-border"></div>
+
+        <!-- Service 08: Integration & Commissioning -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center" data-aos="fade-up">
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="rounded-[4px] overflow-hidden border border-brand-border shadow-industrial">
+              <img src="assets/images/contribution/installation-and-commissioning-1.webp" alt="On-Site System Integration and Commissioning" class="w-full h-[300px] sm:h-[380px] object-cover">
+            </div>
+          </div>
+          <div class="lg:col-span-6 space-y-4 order-1 lg:order-2">
+            <div class="flex items-center gap-2">
+              <span class="section-number shrink-0 whitespace-nowrap">08</span>
+              <span class="technical-label">END-TO-END EXECUTION</span>
+            </div>
+            <h2 class="heading-h2 text-brand-dark">System Integration & On-Site Commissioning</h2>
+            <p class="text-base text-brand-secondary leading-relaxed">
+              Complete turnkey project execution spanning electrical CAD schematics, panel wiring diagrams, site installation, loop checking, trial runs, and operator handover.
+            </p>
+            <ul class="space-y-2 text-sm text-brand-secondary">
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> CAD electrical wiring schematics, I/O mapping, and FAT / SAT testing</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Field-proven automation engineers deployed on-site for rapid startup</li>
+              <li class="flex items-center gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-brand-primary"></i> Comprehensive operator training, maintenance manuals, and ongoing support</li>
+            </ul>
           </div>
         </div>
 
@@ -274,7 +414,7 @@
         <!-- Col 1: Brand & Summary (38% on desktop / 5 cols) -->
         <div class="lg:col-span-5 space-y-4">
           <a href="index.html" class="inline-block focus:outline-none">
-            <img src="assets/logo/everyonic-logo.png" alt="Everyonic Automation Logo"
+            <img src="assets/logo/logo.png" alt="Everyonic Automation Logo"
               class="w-[165px] h-auto object-contain">
           </a>
           <div class="w-9 h-[2px] bg-brand-primary"></div>
@@ -298,6 +438,9 @@
             <li><a href="about.html"
                 class="text-brand-secondary hover:text-brand-primary hover:translate-x-0.5 transition-all duration-200 inline-block font-normal">About
                 Us</a></li>
+            <li><a href="products.html"
+                class="text-brand-secondary hover:text-brand-primary hover:translate-x-0.5 transition-all duration-200 inline-block font-normal">Products</a>
+            </li>
             <li><a href="services.html"
                 class="text-brand-primary font-semibold hover:translate-x-0.5 transition-all duration-200 inline-block">Services</a>
             </li>
@@ -335,11 +478,14 @@
             <span>Contact Us</span>
           </h4>
           <ul class="space-y-3 text-[14px]">
-            <li class="flex items-center gap-3">
-              <i data-lucide="phone" class="w-4 h-4 text-brand-primary shrink-0"></i>
-              <a href="tel:+917383967607"
-                class="text-brand-dark hover:text-brand-primary font-mono text-[13px] transition-colors duration-200">+91
-                73839 67607</a>
+            <li class="flex items-start gap-3">
+              <i data-lucide="phone" class="w-4 h-4 text-brand-primary shrink-0 mt-0.5"></i>
+              <div class="flex flex-col gap-1 font-mono text-[13px]">
+                <a href="tel:+917383967607"
+                  class="text-brand-dark hover:text-brand-primary transition-colors duration-200">+91 73839 67607</a>
+                <a href="tel:+918511722326"
+                  class="text-brand-dark hover:text-brand-primary transition-colors duration-200">+91 85117 22326</a>
+              </div>
             </li>
             <li class="flex items-center gap-3">
               <i data-lucide="mail" class="w-4 h-4 text-brand-primary shrink-0"></i>
@@ -348,7 +494,9 @@
             </li>
             <li class="flex items-center gap-3">
               <i data-lucide="map-pin" class="w-4 h-4 text-brand-primary shrink-0"></i>
-              <span class="text-brand-dark font-medium">Morbi, Gujarat, India</span>
+              <a href="https://maps.app.goo.gl/zmQJQF9mBYnwsrFW6"
+                target="_blank" rel="noopener noreferrer"
+                class="text-brand-dark hover:text-brand-primary font-medium transition-colors duration-200">Ahmedabad, Gujarat, India</a>
             </li>
           </ul>
         </div>

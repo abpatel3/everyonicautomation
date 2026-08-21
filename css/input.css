@@ -91,7 +91,7 @@
   }
 
   .section-number {
-    @apply font-mono text-sm sm:text-base text-brand-primary font-bold tracking-widest;
+    @apply font-mono text-sm sm:text-base text-brand-primary font-bold tracking-widest shrink-0 whitespace-nowrap;
   }
 
   /* Horizontal Service Row Styling */
